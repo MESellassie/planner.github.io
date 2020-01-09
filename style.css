@@ -1,12 +1,12 @@
 hr {
-    height: 3px;
-    border: 1px solid rgb(143, 143, 143);
-    background: rgb(143, 143, 143);
+    height: 5px;
+    border: 1px solid black;
+    background: black;
 }
 
 .intro {
     text-align: center;
-    color: white;
+    color: rgb(43, 42, 42);
     font-size: 60px;
     
 }
@@ -17,31 +17,48 @@ hr {
     font-size: 20px;
 }
 
-.card {
-    height: 80px;
-    border: 2px solid white;
+.row {
+    border-radius: 10px;
+
+}
+
+#tasks {
+    height: 100%;
+    width: 100%;
     background: rgb(143, 143, 143);
+    border: none;
+    padding: none;
+    margin: none;
+
+}
+
+.card {
+    /* height: 80px;
+    border: 1px solid white; */
+    /* background: rgb(143, 143, 143); */
+    /* border-radius: 10px;
+    padding-left: 0; */
 }
 
 .time {
-    float: left;
-    position: relative;
     background: white;
-    height: 80px;
+    min-height: 100%;
     width: 80px;
-    border-right: 1px solid rgb(143, 143, 143);
-    border-top: 2px solid rgb(143, 143, 143);
-    border-bottom: 2px solid rgb(143, 143, 143);
+    border: 0;
+    border-right: 2px solid black;
+
 }
 
 .saveIcon {
-    float: right;
-    position: relative;
     background: rgb(2, 120, 175);
     border: 2px solid white;
     border-radius: 10px;
     height: 80px;
     width: 80px;
+}
+
+.fa.fa-lock {
+    color: white;
 }
 
 
