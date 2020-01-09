@@ -17,10 +17,6 @@ hr {
     font-size: 20px;
 }
 
-.row {
-    border-radius: 10px;
-
-}
 
 #tasks {
     height: 100%;
@@ -32,34 +28,52 @@ hr {
 
 }
 
-.card {
-    /* height: 80px;
-    border: 1px solid white; */
-    /* background: rgb(143, 143, 143); */
-    /* border-radius: 10px;
-    padding-left: 0; */
+.row {
+    height: 100px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
 }
 
 .time {
     background: white;
-    min-height: 100%;
-    width: 80px;
-    border: 0;
-    border-right: 2px solid black;
-
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .saveIcon {
     background: rgb(2, 120, 175);
-    border: 2px solid white;
-    border-radius: 10px;
-    height: 80px;
-    width: 80px;
+    border-left: 1px solid white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    text-align: center;
+    position: relative;
 }
 
-.fa.fa-lock {
-    color: white;
+
+.fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
+
+/* .fa {
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    position: relative;
+} */
+
+
 
 
 
