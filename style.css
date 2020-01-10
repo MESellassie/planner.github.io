@@ -18,14 +18,13 @@ hr {
 }
 
 
-#tasks {
+#tasks9, #tasks10, #tasks11, #tasks12, #tasks1, #tasks2, #tasks3, #tasks4, #tasks5 {
     height: 100%;
     width: 100%;
     background: rgb(143, 143, 143);
     border: none;
     padding: none;
     margin: none;
-
 }
 
 .row {
@@ -64,6 +63,19 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.fa9.fa10.fa11.fa12.fa1.fa2.fa3.fa4.fa5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.currentDate {
+    text-align: center;
 }
 
 /* .fa {

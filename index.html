@@ -33,6 +33,7 @@
         <div class="container-fluid">
             <p class="intro">Work Day Scheduler</p>
             <p class="subheader">Subheading text about the day scheduler</p>
+            <p class="currentDate"></p>
             <hr />
         </div>
     </div>
@@ -47,10 +48,10 @@
                     <h1>9AM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks9" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa9"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -60,10 +61,10 @@
                     <h1>10AM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks10" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa10"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -73,10 +74,10 @@
                     <h1>11AM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks11" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa11"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -86,10 +87,10 @@
                     <h1>12PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks12" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa12"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -99,10 +100,10 @@
                     <h1>1PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks1" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa1"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -112,10 +113,10 @@
                     <h1>2PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks2" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa2"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -125,10 +126,10 @@
                     <h1>3PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks3" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa3"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -138,10 +139,10 @@
                     <h1>4PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks4" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa4"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
@@ -151,13 +152,42 @@
                     <h1>5PM</h1>
                 </div>
                 <div class="col-sm-8">
-                    <input id="tasks" />
+                    <input id="tasks5" />
                 </div>
                 <div class="saveIcon col-sm-2">
-                    <i style="font-size:40px" class="fa"><a href="#" style="color:white">&#xf0c7;</a></i>
+                    <i style="font-size:40px" class="fa fa5"><a href="#" style="color:white">&#xf0c7;</a></i>
                 </div>
             </div>
 
+            <!-- Displays the saved task from the above timeslots -->
+            <!-- 9am tasks -->
+            <br/>
+            <div class="9amTasks">9AM Tasks:</div>
+            <br/>
+
+            <div class="10amTasks">10AM Tasks:</div>
+            <br/>
+
+            <div class="11amTasks">11AM Tasks:</div>
+            <br/>
+
+            <div class="12pmTasks">12PM Tasks:</div>
+            <br/>
+
+            <div class="1pmTasks">1PM Tasks:</div>
+            <br/>
+
+            <div class="2pmTasks">2PM Tasks:</div>
+            <br/>
+
+            <div class="3pmTasks">3PM Tasks:</div>
+            <br/>
+
+            <div class="4pmTasks">4PM Tasks:</div>
+            <br/>
+
+            <div class="5pmTasks">5PM Tasks:</div>
+            <br/>
 
         </div>
     </div>
@@ -172,6 +202,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    
+    <!-- My JS link -->
+    <script src="script.js"></script>
 
 
 </body>
