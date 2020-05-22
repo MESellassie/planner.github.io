@@ -90,7 +90,7 @@ $(".row").each(function(i, obj){
 
     }
 
-    else (currentHour < datahour) {
+    else if (currentHour < datahour) {
         $(this).css("backgroundColor", "green");
 
     }
